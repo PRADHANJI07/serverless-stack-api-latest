@@ -79,7 +79,7 @@ functions:
 cors:
   origin: '*'
   headers: '*'
-  allowCredentials: true          
+  allowCredentials: true
 resources:
 # API Gateway Errors
   - ${file(resources/api-gateway-errors.yml)}
